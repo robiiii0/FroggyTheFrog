@@ -60,6 +60,31 @@
                 transform: rotate(360deg);
             }
         }
+
+        /* Responsive pour mobile */
+        @media (max-width: 768px) {
+            .title {
+                font-size: 1.5em;
+            }
+
+            img {
+                width: 300px; /* Réduire la taille de l'image sur mobile */
+            }
+
+            audio {
+                width: 90%; /* Adapter la taille du lecteur audio sur mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1.2em;
+            }
+
+            img {
+                width: 200px; /* Réduire davantage la taille de l'image sur très petits écrans */
+            }
+        }
     </style>
 </head>
 <body>
